@@ -24,6 +24,7 @@ public class GetCsvByFTPSendXML {
 					public void process(Exchange exchange) throws Exception
 					{
 						System.out.println("File CSV found!");
+						System.out.println("Ciao");
 					}
 				})
 				.to("file:C:/DataOut")
