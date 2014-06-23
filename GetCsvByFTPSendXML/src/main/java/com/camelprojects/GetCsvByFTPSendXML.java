@@ -25,6 +25,7 @@ public class GetCsvByFTPSendXML {
 					{
 						System.out.println("File CSV found!");
 						System.out.println("Ciao");
+						System.out.println("A tutti");
 					}
 				})
 				.to("file:C:/DataOut")
